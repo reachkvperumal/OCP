@@ -22,7 +22,8 @@ OCP Ceritification
 # Rule 10 #
 #Widening a primitive type will be chosen ahead of boxing (e.g. widening a byte to an int will be chosen ahead of boxing to a Byte).
 # Rule 11 #
-#Unboxing an object will be chosen ahead of widening (e.g. Integer to an Object will be chosen ahead of unboxing to an int).
+#Unboxing an object will be chosen ahead of widening (e.g. e.g. unboxing an Integer to an int will be chosen ahead of widening to a Object, but I have experienced the following 
+Integer to an Object will be chosen ahead of unboxing to an int).
 # Rule 12 #
 #A primitive type will be widened to the smallest available primitive (e.g. widening a byte to an int will be choosen ahead of widening to a long).
 # Rule 13 #
